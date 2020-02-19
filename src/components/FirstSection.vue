@@ -5,13 +5,24 @@
       <img src="../assets/logo.svg" alt="Viblo Logo" id="logo" class="mb-3">
       <div class="text-center select-auto"><strong>Free</strong> service for technical knowledge <strong>sharing</strong></div>
     </div>
-    <img src="../assets/viblo-pattern-art.svg" alt="Viblo" id="viblo-pattern" class="absolute bottom-0 right-0 opacity-25 blend-screen select-none">
   </section>
 </template>
 
 <style lang="scss" scoped>
   #first-section {
-    background-image: radial-gradient(#003dbd, #01001e);
+    background: radial-gradient(#003dbd, #01001e);
+
+    &:after {
+      content: "";
+      background: url(../assets/viblo-pattern-art.svg) left bottom no-repeat;
+      mix-blend-mode: screen;
+      opacity: 0.25;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+    }
 
     #brand {
       left: 50%;
