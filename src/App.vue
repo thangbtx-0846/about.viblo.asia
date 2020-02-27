@@ -16,16 +16,16 @@
 </template>
 
 <script>
-const Footer = () => import('./components/Footer')
-const SectionAbout = () => import('./components/SectionAbout')
-const SectionAbility = () => import('./components/SectionAbility')
-const SectionMilestone = () => import('./components/SectionMilestone')
-const SectionCode = () => import('./components/SectionCode')
-const FirstSection = () => import('./components/FirstSection')
-const TopSection = () => import('./components/TopSection')
-const MachineLearningSection = () => import('./components/MachineLearningSection')
-const SectionEvent = () => import('./components/SectionEvent')
-const CounterSection = () => import('./components/CounterSection')
+import Footer from './components/Footer'
+import SectionAbout from './components/SectionAbout'
+import SectionAbility from './components/SectionAbility'
+import SectionMilestone from './components/SectionMilestone'
+import SectionCode from './components/SectionCode'
+import FirstSection from './components/FirstSection'
+import TopSection from './components/TopSection'
+import MachineLearningSection from './components/MachineLearningSection'
+import SectionEvent from './components/SectionEvent'
+import CounterSection from './components/CounterSection'
 
 export default {
   name: 'App',
